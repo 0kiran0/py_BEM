@@ -6,7 +6,7 @@ A robust design and analysis tool using the blade element momentum theory is cre
 • Written in Python27
 • Design and analysis tool for Propellers, Wind Turbines, Hydrokinetic and Tidal Turbines, Helicopter rotors in hover
 • Solo and Contra rotating configuration design capability
-• Airfoil characteristics using XFOIL [2]
+• Airfoil characteristics using XFOIL http://web.mit.edu/drela/Public/web/xfoil/
 • Local effect of Reynolds Number is incorporated which varies with angle of attack and provides a choice of lift to drag ratio
 • Spanwise variation of lift and drag coefficient, lift to drag ratio expands the design space to obtain a better optimum
 • Spline routines written for T-Blade3 [1] are also utilized here for spanwise definition of chord and other properties
