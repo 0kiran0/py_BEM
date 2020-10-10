@@ -1,0 +1,75 @@
+###################################################
+# BEMT Blade Design Input Parameters [S.I. Units] #
+###################################################
+Propeller   # Device type
+SOLO_UC     # Casename # Counter Rotating Propellers
+
+##########################################
+# Fluid Properties
+##########################################
+air         # Fluid Type
+1.225       # Density [kg/m^3]
+15.68e-6    # Kinematic Viscosity @ 20C [m^2/s]
+340.00      # Speed of Sound [m/s^2]
+
+##########################################
+# Blade Parameters
+##########################################
+15.0       # Flow Velocity [m/s]
+7.04821770827 #
+0.0500     # Hub Radius [m]
+0.714369361552 #
+1          # Number of blade rows
+3 #
+21         # Number of airfoil sections
+
+##########################################
+# Airfoil Parameters
+##########################################
+5.0e4 spanwise   # Reynolds Number
+clarky           # Type of Airfoil
+spanwise         # Angle of Attack (degrees) -4.0
+-0.66850          # Cl (Coefficient of Lift)
+0.03834          # Cd (Coefficient of Drag)  
+
+#Bspline distribution of chord multiplier spanwise:
+#Row1
+5
+#span chrdMP
+0.00 1.04744108862
+0.25 1.37173544353
+0.50 1.08823912967
+0.75 1.21019060268
+1.00 1.53983255547
+#AoARow1 spanwise Bspline distribution:
+5
+#span alpha
+0.00 -6.5
+0.25 -6.0
+0.50 -5.5
+0.75 -5.0
+1.00 -4.5
+
+#chord [m] at radial locations
+row 1
+0.10219944
+0.12088368
+0.13182600
+0.13667232
+0.13719048
+0.13481304
+0.13060680
+0.12527280
+0.11926824
+0.11289792
+0.10628376
+0.09951720
+0.09265920
+0.08564880
+0.07839456
+0.07083552
+0.06275832
+0.05388864
+0.04367784
+0.03066288
+0.01764792

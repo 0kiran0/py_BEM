@@ -1,0 +1,76 @@
+###################################################
+# BEMT Blade Design Input Parameters [S.I. Units] #
+###################################################
+Turbine   # Device type
+NREL_WT  # Casename
+
+##########################################
+# Fluid Properties
+##########################################
+sea_water   # Fluid Type
+1.225      # Density [kg/m^3]
+1.56e-5     # Kinematic Viscosity @ 20C [m^2/s]
+340.29      # Speed of Sound [m/s^2]
+
+##########################################
+# Blade Parameters
+##########################################
+7.0       # Flow Velocity [m/s]
+RPM 72.0  # Tip Speed Ratio
+0.5465       # Hub Radius [m]
+5.029       # Tip Radius [m]
+1          # Number of blade rows
+2          # Number of blades
+30         # Number of airfoil sections
+
+##########################################
+# Airfoil Parameters
+##########################################
+0.9e6 spanwise   # Reynolds Number
+s809m              # Type of Airfoil
+8           # Angle of Attack (degrees)
+0.9475 0.4970             # Cl (Coefficient of Lift)
+0.02897            # Cd (Coefficient of Drag)
+
+#Bspline distribution of chord multiplier spanwise:
+#Row1
+5
+#span chrdMP
+0.00 1.0
+0.25 1.0
+0.50 1.0	
+0.75 1.0
+1.00 1.0
+
+#chord [m] at radial locations
+row1
+0.347992
+0.348000
+0.347995
+0.347994
+0.541998
+0.729997
+0.722997
+0.704007
+0.685992
+0.668006
+0.651000
+0.640007
+0.621996
+0.605000
+0.587997
+0.579003
+0.558000
+0.541001
+0.525002
+0.513002
+0.496003
+0.479003
+0.462001
+0.445002
+0.434000
+0.417001
+0.398998
+0.385002
+0.370002
+0.353000
