@@ -843,13 +843,15 @@ def Cl_Cd_rangeREYN(airfoil,alphaspan,propeller,Re_lookup):
 			if keyword in line:
 				# print line
 				linelist  = line.split()
-				# break
+				break
 			elif keyword2 in line:
 				# print line
-				linelist  = line.split()  
+				linelist  = line.split()
+				break
 			elif keyword3 in line:
 				# print line
-				linelist  = line.split()                 
+				linelist  = line.split()
+				break
 			#else:
 				#print " The keyword ", keyword, " not found."
 				
